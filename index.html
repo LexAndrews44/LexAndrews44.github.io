@@ -144,14 +144,35 @@
         </div>
     </aside>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-    </section>
+    <!--Contact-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                  <div class="row">
+
+                    <div class="col-sm-6 col-sm-offset-3">
+
+                        <form action="https://formspree.io/according2alex@gmail.com" method="POST">
+                            <input type="text" id="cname" class="form-control" name="Name:" placeholder="Name" required="" data-validation-required-message="Please enter your name." aria-invalid="false" style="margin: 5px;">
+                                <p class="help-block text-danger"></p>
+                            
+                            <input type="email" id="cemail" name="Email:" class="form-control" placeholder="Your E-mail" required="" data-validation-required-message="Please enter your email address." style="margin: 5px;">
+                                <p class="help-block text-danger"></p>
+                            
+                            <textarea class="form-control" id="cmessage" name="Message:" rows="7" placeholder="Message" required="" data-validation-required-message="Please enter your message." style="margin: 5px;"></textarea>
+                                <p class="help-block text-danger"></p>
+                              
+                            <input type="submit" class="btn btn-round btn-g" value="Send" style="margin: 5px;">
+                        </form>
 
     <!-- Footer -->
     <footer>
