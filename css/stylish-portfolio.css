@@ -189,6 +189,7 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-color: #3399ff;
 }
 
 .portfolio-item {
@@ -213,26 +214,14 @@ hr.small {
     margin: 10px;
 }
 
-/* Map */
 
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
 
 /* Footer */
 
+
 footer {
     padding: 100px 0;
+    
 }
 
 #to-top {
