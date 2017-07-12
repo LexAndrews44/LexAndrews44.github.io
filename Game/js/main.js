@@ -22,7 +22,7 @@ Hero.prototype.move = function (direction) {
     }
 };
 Hero.prototype.jump = function () {
-    const JUMP_SPEED = 5000;
+    const JUMP_SPEED = 650;
     let canJump = this.body.touching.down;
     if (canJump) {
         this.body.velocity.y = -JUMP_SPEED;
@@ -181,7 +181,7 @@ PlayState._loadLevel = function (data) {
     data.coins.forEach(this._spawnCoin, this);
     this._spawnDoor(data.door.x, data.door.y);
     this._spawnKey(data.key.x, data.key.y);
-    const GRAVITY = 5000;
+    const GRAVITY = 1200;
     this.game.physics.arcade.gravity.y = GRAVITY;
 };
 PlayState._spawnPlatform = function (platform) {
