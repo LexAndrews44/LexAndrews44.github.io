@@ -22,7 +22,7 @@ Hero.prototype.move = function (direction) {
     }
 };
 Hero.prototype.jump = function () {
-    const JUMP_SPEED = 650;
+    const JUMP_SPEED = 5000;
     let canJump = this.body.touching.down;
     if (canJump) {
         this.body.velocity.y = -JUMP_SPEED;
