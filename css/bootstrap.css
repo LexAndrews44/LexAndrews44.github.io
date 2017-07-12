@@ -1193,7 +1193,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: lucida;
   font-weight: 500;
   line-height: 1.1;
   color: #ffff66;
@@ -1298,6 +1298,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  font-style: lucida;
 }
 .lead {
   margin-bottom: 20px;
