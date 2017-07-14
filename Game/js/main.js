@@ -112,7 +112,7 @@ PlayState.preload = function () {
     this.game.load.image('grass:1x1', 'images/grass_1x1.png');
     this.game.load.image('invisible-wall', 'images/invisible_wall.png');
     this.game.load.image('icon:coin', 'images/coin_icon.png');
-    this.game.load.image('key', 'images/key.png');
+    this.game.load.image('key', 'images/flash_icon.png');
     this.game.load.spritesheet('coin', 'images/coin_animated.png', 22, 22);
     this.game.load.spritesheet('spider', 'images/Crab.png', 42, 32);
     this.game.load.spritesheet('hero', 'images/flashway.png', 36, 42);
