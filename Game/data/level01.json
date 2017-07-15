@@ -1,4 +1,4 @@
-{
+            {
     "platforms": [
         {"image": "ground", "x": 0, "y": 546},
         {"image": "grass:8x1", "x": 0, "y": 420},
