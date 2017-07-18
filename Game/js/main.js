@@ -292,3 +292,9 @@ window.onload = function () {
     game.state.add('play', PlayState);
     game.state.start('play', true, false, {level: 0});
 };
+myAudio = new Audio('audio/TheFlash.mp3');
+myAudio.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+}, false);
+myAudio.play();
