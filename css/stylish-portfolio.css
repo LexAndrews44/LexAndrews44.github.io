@@ -204,15 +204,7 @@ hr.small {
     opacity: 0.8;
 }
 
-/* Call to Action */
 
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
 
 
 
@@ -221,14 +213,9 @@ hr.small {
 
 footer {
     padding: 100px 0;
-
+    text-align: center;
     
     
 }
 
-#to-top {
-  display: none;
-  position: center;
-  bottom: 5px;
-  right: 5px;
-}
+
