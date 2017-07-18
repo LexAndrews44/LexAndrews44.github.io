@@ -81,7 +81,7 @@ Spider.prototype.die = function () {
     }, this);
 };
 PlayState = {};
-const LEVEL_COUNT = 5;
+const LEVEL_COUNT = 3;
 PlayState.init = function (data) {
     this.game.renderer.renderSession.roundPixels = true;
     this.keys = this.game.input.keyboard.addKeys({
