@@ -212,10 +212,13 @@ hr.small {
 
 
 footer {
-    padding: 100px 0;
-    text-align: center;
-    
-    
+
+    bottom: 0;
+    position: center;
+    width: 100%;
 }
+
+    
+
 
 

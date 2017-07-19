@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["UtaNF"]); }
+
+__d("PagesComposerCanvasVideoPostAttributes",[],(function a(b,c,d,e,f,g){f.exports={CTA_LINK:"cta_link",CTA_TYPE:"cta_type",LINK_TITLE:"link_title",VIDEO_ID:"video_id"};}),null);
