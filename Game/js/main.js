@@ -118,7 +118,7 @@ PlayState.preload = function () {
     this.game.load.image('key', 'images/flashkey.png');
     this.game.load.spritesheet('coin', 'images/coin_animated.png', 22, 22);
     this.game.load.spritesheet('spider', 'images/Crab.png', 42, 32);
-    this.game.load.spritesheet('hero', 'images/flashwayS.png', 36, 42);
+    this.game.load.spritesheet('hero', 'images/flashway.png', 36, 42);
     this.game.load.spritesheet('door', 'images/speedforce.png', 42, 66);
     this.game.load.spritesheet('icon:key', 'images/flash_icon.png', 34, 30);
     this.game.load.audio('sfx:jump', 'audio/jump.wav');
